@@ -1,0 +1,23 @@
+.homepage__inner {
+    min-height: calc(100vh - 80px);
+    display: flex;
+}
+
+.homepage__inner-center {
+    margin: auto;
+}
+
+.homepage__inner-center-text {
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.homepage__inner-center-pic {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 24px;
+    pointer-events: none;
+}
