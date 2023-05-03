@@ -1,24 +1,22 @@
-# evil_martians_auth
+# Evil Martians - тестовая форма
 
-## Project setup
-```
+### Ссылка на "production"
+Раскатанную версию можно увидеть здесь.
+
+### Примененные технологические решения
+- Фреймворк Vue 3
+- TypeScript
+- VueX
+- Mocks как константы для ответа "сервера"
+
+
+### Локальный запуск
+```angular2html
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
+Протестировано под node 16/18.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Как протестировать интерфейс
+- Правильный пароль для входа - "123456", почта - любая
+- Восстановить пароль удастся только на адреса электронной почты, заканчивающиеся на "gmail.com", в противном случае возникнет ошибка
